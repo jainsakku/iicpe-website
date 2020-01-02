@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IICPE-2018</title>
+
+
+<style>
+.dropbtn {
+   <!-- background-color: #0066cc;-->
+    color: white;
+  color: #008CBA;
+    font-size: 20px;
+      border-width: 0px;
+        margin: 1px;
+    
+   
+    border-style: solid;
+    border-color: transparent;
+   
+    background-color: transparent;
+  text-align: justify;
+    
+  
+    border: none;
+    cursor: pointer;
+  font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #CBD5DC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #09eaf2}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 0.8;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3399ff;
+  color: white;
+
+}
+.my-footer {
+background: #ccc;
+margin-bottom: 10px;
+padding: 10px;
+margin-bottom: 25px;
+font-size: 12px;
+font-weight: bold;
+text-align: left;
+padding: 15px;
+border-radius: 5px;
+color: #fff;
+background: #45484d; /* Old browsers */
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+.my-header {
+
+margin-top: 0px;
+padding: 0px;
+
+font-size: 14px;
+font-weight: bold;
+text-align: left;
+padding: 0px;
+border-radius: 0px;
+
+padding-bottom: 10px;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+</style>
+</head>
+<body>
+<header class="my-header">
+  
+<img src="r.jpg"  width="150" height="120" id="img">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div class="dropdown" align="right" id="img">
+  <list class="dropbtn">Home &nbsp;</list>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Call &nbsp;  </list>
+  <div class="dropdown-content">
+    <a href="callforpaper.html">Call for Papers</a>
+    <a href="#">Call for Workshop</a>
+    <a href="#">Call for Tutorials</a>
+    <a href="">Call for Sponsorship</a>
+  </div>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Submission&nbsp; </list>
+  <div class="dropdown-content">
+    <a href="#">Submission And Journal Publication</a>
+    <a href="#">Camera Ready paper Upload</a>
+    <a href="#">Presentation Guideline</a>
+  </div>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Organization &nbsp;</list>
+  <div class="dropdown-content">
+    <a href="#">Steering Commitee</a>
+    <a href="#">Organizing Commitee</a>
+    <a href="#">Program Commitee</a>
+  </div>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Program&nbsp; </list>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Workshop &nbsp;</list>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Registration&nbsp; </list>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <list class="dropbtn">Venue&nbsp; </list>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+</header>
+<div class="w3-content w3-section" style="max-width:1000px max-height:600px padding:10px" id="container1">
+  <img class="mySlides" src="i.jpg" style="width:100%" id="qw">
+  <img class="mySlides" src="l.jpg" style="width:100%" id="qw">
+  <img class="mySlides" src="p.jpg" style="width:100%" id="qw">
+  <img class="mySlides" src="d.png" style="width: 100%" id="qw">
+  
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
+<div id=ya>
+<p id="ya"><b><br><br>Big data and smart computing are emerging research fields that have recently drawn much attention from computer science and information technology as well as from social sciences and other disciplines.<br>
+<br>
+The goal of the International Conference on Big Data and Smart Computing (BigComp), initiated by KIISE (Korean Institute of Information Scientists and Engineers), is to provide an international forum for exchanging ideas and information on current studies, challenges, research results, system developments, and practical experiences in these emerging fields.<br><br>
+
+Following the successes of the previous BigComp conferences in Bangkok, Thailand (2014), Jeju, Korea (2015), Hong Kong, China (2016), Jeju, Korea (2017), the 2018 International Conference on Big Data and Smart Computing (BigComp 2018) will be held in Shanghai, China.<br><br>
+
+The conference is co-sponsored by IEEE and KIISE. BigComp 2018 invites authors to submit original research papers and original work-in-progress reports on big data and smart computing.<br></b>
+</p>
+  <div >
+  <p id="er">Topic Areas:</p>
+</div>
+<div>
+  <p id="ya">The topics of interest for BigComp2018 include (but are not limited to) the following:</p>
+  </div>
+  <div>
+  
+      <span >
+
+    <ul style="list-style-type: disc; display: inline-block;" id="rt">
+      <li>Techniques, models and algorithms for big data</li>
+      <li>Machine learning and AI for big data</li>
+      <li> Web search and information retrieval</li>
+      <li>Models and tools for smart computing</li>
+      <li>Cloud and grid computing for big data</li>
+      <li>Security and privacy for big data</li>
+      <li>Smart devices and hardware</li>
+      
+    </ul>
+  
+    
+    
+    <ul style="list-style-type: disc; display: inline-block;" id="rt">
+      <li>Tools and systems for big data</li>
+      <li>Data mining, graph mining and data science</li>
+<li>Big data applications: Bioinformatics, Multimedia, Smartphones, etc.</li>
+<li> Infrastructure and platform for smart computing</li>
+
+<li> Big data analytics and social media</li>
+
+<li> Hardware/software infrastructure for big data</li>
+
+<li> Mobile communications and networks</li>
+
+
+    </ul>
+  
+
+    </div>
+</div>
+<div>
+  <p id="op1">Important Dates</p>
+  
+  <ul style="list-style-type: disc;" id="op">
+
+  
+  
+    <li >Paper Submission - June 1 , 2018</li>
+    <li >Acceptance Notification - August 20, 2018</li>
+    <li >Final Paper Submission - October 1, 2018</li>
+    <li >Early Bird Registration - October 15, 2018</li>
+  </ul>
+   <br>
+</div>
+
+<div >
+      <a href="" class="btn btn-primary btn-lg" id="a2">Call For Papers</a>
+     <a href="" class="btn btn-primary btn-lg" id="a2">Call For Sponsorship</a>
+      <a href="" class="btn btn-primary btn-lg" id="a2">Online Submmision</a>
+      <a href="" class="btn btn-primary btn-lg" id="a2">Online Registration</a>
+      <a href="" class="btn btn-primary btn-lg" id="a2">Program Block</a>
+    
+</div>
+<br>
+<div>
+  <p id="op2">Organized by&nbsp;
+  <img src="n1.jpg"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sponsored by&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="n2.png">
+  <img src="m5.png">
+  <img src="m6.jpg">
+  <img src="r.jpg">
+</p>  </div>
+<div>
+  <p id="op2">Patrons:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="n5.jpg">&nbsp;&nbsp;
+    <img src="n6.jpg">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+  
+
+</body>
+
+
+
+<footer class="my-footer">
+<p> Copyright 2017 KIISE – All Rights Reserved.</p>
+<p>[KIISE] Korean Institute of Information Scientists and Engineers</p>
+<p>#401 Meorijae Bldg., 76, Bangbae-ro, Seocho-gu, Seoul 06704, Korea</p>
+<p>Phone: +82-2-588-9240 | Fax: +82-2-521-1352 | Email: ejmoon@kiise.or.kr | Homepage: www.kiise.or.kr</p>
+<p>Business Registration Number: 114-82-03170</p>
+</footer>
+</html>
